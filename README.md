@@ -3,6 +3,8 @@ A small tool to extract almost rectilinear roads from a graph (NetworkX, OSMnx)
 The function to detect quasi-rectilinear contiguous edges in a directed graph seems quite efficient: on the London OSM graph with ~200K edges, it takes ~1s to identify all "meta-edges". It should work both for directed and undirected networkx graphs.
 The code has not been thoroughly checked, so use with care. If you find important bugs, please report them here! Thanks.
 
+![London OSM L=12km - 300 longest straight paths](https://github.com/mcogoni/rectigraph/blob/master/rectipaths.png)
+
 
 Based on the "intersection-continuity-negotiation":
 - Porta, S., Crucitti, P. & Latora, V. The network analysis of urban streets: a primal approach. Environ. Plann. B 33, 705–725 (2006)
